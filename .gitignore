@@ -1,0 +1,39 @@
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+v.venv/
+venv/
+env/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Private transaction data and uploads
+data/
+uploads/
+datasets/
+*.csv
+*.xlsx
+*.xls
+
+# Secrets and credentials
+.env
+.env.*
+.streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+models/*.joblib
